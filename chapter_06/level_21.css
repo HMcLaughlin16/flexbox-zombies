@@ -1,0 +1,10 @@
+/* Challenge answer */
+.flexbox-challenge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexbox-challenge > *:nth-of-type(3) {
+  flex-shrink: 0;
+}
