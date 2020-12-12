@@ -1,0 +1,6 @@
+/* Challenge answer */
+.flexbox-challenge > *:nth-of-type(2) {
+  height: 75%;
+  align-self: center;
+  flex-grow: 1;
+}
