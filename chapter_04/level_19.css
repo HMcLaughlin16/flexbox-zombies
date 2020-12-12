@@ -1,0 +1,16 @@
+/* Challenge answer */
+.flexbox-challenge.infected {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.flexbox-challenge > *:nth-of-type(3) {
+  height: 50%;
+  align-self: flex-end;
+}
+
+.flexbox-challenge > *:nth-of-type(2) {
+  height: 25%;
+  align-self: center;
+}
