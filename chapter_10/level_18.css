@@ -1,0 +1,8 @@
+/* Challenge answer */
+.flexbox-challenge {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
