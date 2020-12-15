@@ -1,0 +1,14 @@
+crossbow {
+  display: flex;
+  align-items: center;
+}
+
+.target:nth-of-type(1) {
+  flex: 1 0 auto;
+}
+
+/*
+If you leave off the third parameter for flex-basis, then flex will set the basis to 0px by default.
+
+flex-basis on its own defaults to auto. But when using the flex shorthand and don't specify a basis it becomes 0px by default
+*/
