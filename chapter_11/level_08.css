@@ -1,0 +1,10 @@
+crossbow {
+  display: flex;
+  align-items: center;
+}
+
+.target.goo {
+  flex: none;
+}
+
+/* flex: none is a shorthand for cases when you want to set the target to flex-grow: 0; and flex-shrink: 0; and flex-basis: auto;. */
