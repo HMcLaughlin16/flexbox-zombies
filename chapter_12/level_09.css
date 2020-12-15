@@ -1,0 +1,12 @@
+crossbow {
+  display: flex;
+  flex-direction: column;
+}
+
+.target:nth-of-type(2) {
+  align-self: stretch;
+}
+
+.target:nth-of-type(3) {
+  flex: 1 0 auto;
+}
