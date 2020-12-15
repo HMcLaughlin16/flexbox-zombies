@@ -1,0 +1,13 @@
+/* Just dialogs */
+
+/* 
+The flex shortcut foes on the targets, and sets flex-grow, flex-shrink, and flex-basis all att once.
+
+You have to specify at least the flex-grow. The other two arguments are optional and default to flex-shrink: 1 and flex-basis: 0px, which is different than the usual default of flex-basis: auto.
+
+Setting flex: auto is the same as setting flex-grow: 1, flex-shrink: 1, and flex-basis: auto.
+
+Setting flex: none is the same as setting flex-grow: 0, flex-shrink: 0, and flex-basis: auto.
+
+flex-flow sets both flex-direction and flex-wrap at the same time
+*/

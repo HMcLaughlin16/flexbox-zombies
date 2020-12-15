@@ -1,0 +1,10 @@
+crossbow {
+  display: flex;
+  align-items: center;
+}
+
+.target.goo {
+  flex: auto;
+}
+
+/* flex: auto is a shorthand for cases when you want to set the target to flex-grow: 1; and flex-shrink: 1; and flex-basis: auto;. */

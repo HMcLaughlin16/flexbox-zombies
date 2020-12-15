@@ -1,0 +1,10 @@
+crossbow {
+  display: flex;
+  align-items: center;
+}
+
+.target.goo {
+  flex: 1;
+}
+
+/* flex: 1 was just a shortcut for setting flex-grow: 1; and flex-shrink: 1; and flex-basis: 0px

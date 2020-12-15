@@ -1,0 +1,14 @@
+crossbow {
+  display: flex;
+  align-items: center;
+}
+
+.target:nth-of-type(3) {
+  flex: 0 300px;
+}
+
+/*
+You can also leave off the second flex-shrink parameter and flex will default it to the regular flex-shrink: 1
+
+The crossbow was smart enough to know that 300px is a flex-basis setting, so it skipped flex-shrink and set it to flex-shrink: 1
+*/
