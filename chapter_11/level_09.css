@@ -1,0 +1,7 @@
+crossbow {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+/* flex-flow sets both the flex-direction and flex-wrap settings - in that order - in one goe */
