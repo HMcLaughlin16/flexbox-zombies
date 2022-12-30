@@ -1,6 +1,7 @@
 crossbow {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .target:nth-of-type(2) {
